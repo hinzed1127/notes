@@ -1,4 +1,4 @@
-## Chart Examples
+### Chart Examples
 
 Different ways to model the same weather day.
 
