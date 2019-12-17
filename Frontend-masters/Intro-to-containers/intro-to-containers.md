@@ -103,3 +103,26 @@ So far, the focus has been on running containers with pre-existing images that w
 - Useful for cleaning up after yourself and not leaving old containers around
 
 **PROTIP**: pipe JSON output in terminal to jq for colorized output
+
+ex: `cat data.json | jq`
+
+## Useful Docker Features
+
+### Using Containers for Dev Environments
+
+### Dev Containers with Visual Studio Code
+
+`docker run --env DATA_PATH=/data/num.txt --mount type=volume,src=incrementor-data,target=/data incrementor`
+`docker run --rm -it --mount type=bind,source="$(pwd)",target=/src -p 1313:1313 -u hugo jguyomard/hugo-builder:0.55 hugo server -w --bind=0.0.0.0`
+
+## Closing online audience questions
+
+### What's the difference between `RUN` and `CMD`?
+
+`RUN` is a buildtime command
+
+- When you run `docker build`, this is a step in setting up, i.e. building, your docker container
+
+`CMD` is runtime
+
+- This is the command that's actually executed when you start up a docker container
