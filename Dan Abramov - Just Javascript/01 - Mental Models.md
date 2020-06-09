@@ -23,7 +23,7 @@ Over time, we accumalate a number of different mental models for how we can thin
 
 Sometimes these mental models are incomplete, or simply wrong. The goal here is to rebuild and correct those bad assumptions.
 
-# Coding, Fast and Slow
+## Coding, Fast and Slow
 
 Mentions Kahneman's "Thinking, Fast and Slow" in the context of coding. Programming over time leads us to use our "fast" pattern-matching system, when sometimes it should be our slow system instead.
 

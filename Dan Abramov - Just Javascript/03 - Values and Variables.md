@@ -1,3 +1,5 @@
+# Values and Variables
+
 ```javascript
 let reaction = "yikes";
 reaction[0] = "l";
@@ -14,15 +16,15 @@ For me:
 
 Answer: the final result is still "yikes"
 
-# What happened?
+## What happened?
 
 Straightforward answer:
 
 > This code will either print "yikes" or throw an error depending on whether you are in strict mode
 
-## Primitive Values Are Immutable
+### Primitive Values Are Immutable
 
-The false equivalency I made is shown here
+The false equivalency I made is shown here:
 
 ```javascript
 let arr = [212, 8, 506];
@@ -52,7 +54,7 @@ let fifty = 50;
 fifty.shade = "gray"; // fails
 ```
 
-# Variables as Wires
+## Variables as Wires
 
 A (potentially) contradictory example:
 
@@ -87,11 +89,11 @@ pet = count + " Dalmations";
 
 or _literals_ - something like `2` or 'The Kraken - values that we literally write down
 
-# Reading a value of a variable
+## Reading a value of a variable
 
 `console.log(pet)` is asking for the current value of pet. The same expression can give different values at different times depending on what `pet`'s value is.
 
-# Nouns and Verbs
+## Nouns and Verbs
 
 - "pass a variable" vs "pass a value"
 
@@ -109,7 +111,7 @@ console.log(money); // 10
 
 we're passing the _value_, not the variable. therefore, `money` isn't going to change.
 
-# Recap
+## Recap
 
 - Primitive values are immutable
   - Arrays are _not_ primitive, so we can set their properties

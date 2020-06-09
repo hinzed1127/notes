@@ -12,7 +12,7 @@ Two kinds of values:
 - Can connect to other values, make more of them
 - "I can't destroy them"
 
-# Expressions
+## Expressions
 
 Think of expressions as javascript _questions_
 
@@ -20,13 +20,13 @@ Think of expressions as javascript _questions_
 
 Ex: `console.log()`
 
-## typeof Expression
+### typeof Expression
 
 Answers a fundamental question: what does javascript treat this input as?
 
 - Javascript has a (suprisingly) small number of distinct types.
 
-# Types of values
+## Types of values
 
 - Undefined (`undefined`) - unintentionally missing values
 - Null (`null`) - Intentionally missing values
@@ -39,13 +39,13 @@ Answers a fundamental question: what does javascript treat this input as?
 - Objects (`{}` and others) - group together related data
 - Functions (`x => x \* 2`) - used to refer to code
 
-# Homework
+## Homework
 
 1. Imagine you see some code that checks whether a value is a date: typeof(value) === 'date'. Will this code work? Why or why not?
 2. Open some JavaScript code that you have been working on and put console.log(typeof(something)) in it, replacing something with different variables in your code. Can you find an example for every value type in the list above? Try to “collect” as many types as you can.
 3. One of the values mentioned in this chapter “lies” about its type. Concretely, typeof() will return an incorrect answer for it because of a JavaScript bug that is now too late to fix. Unless you already know it, find this value by trying typeof() for every example in the list above.
 
-## Answers
+### Answers
 
 1.
 
